@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tabs</title>
+</head>
+
+<body>
+    <div class="about">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, dicta!</p>
+        <div class="about-content">
+            <img src="./images/about.jpg" class="img active" id="hist" alt="">
+            <img src="./images/visi.jpg" class="img " id="visi" alt="">
+            <img src="./images/hist.jpg" class="img" id="goals" alt="">
+            <div class="about-info">
+                <div class="tabs">
+                    <button class="tabs-btn active" data-id="hist">History</button>
+                    <button class="tabs-btn " data-id="visi">Vision</button>
+                    <button class="tabs-btn" data-id="goals">Goals</button>
+                </div>
+                <div class="tabs-content">
+                    <div class="tabs-content-inner active" id="hist">
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Dignissimos laborum ex quia
+                            praesentium ad laudantium, distinctio libero corporis saepe, alias consectetur reiciendis
+                            itaque
+                            modi ab molestias quas maiores natus repudiandae!</p>
+                    </div>
+                    <div class="tabs-content-inner " id="visi">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Molestias
+                            laboriosam voluptatibus
+                            quos quo, sit saepe dolore voluptates placeat minus odit asperiores iusto repudiandae
+                            dignissimos fugit eveniet rerum sequi quibusdam quae!</p>
+                    </div>
+                    <div class="tabs-content-inner" id="goals">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptatibus et similique, nulla vero
+                            deleniti saepe tenetur molestiae magnam aperiam inventore laborum ipsa, officia adipisci
+                            impedit
+                            ea iusto dolores praesentium dolor?</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
